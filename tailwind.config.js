@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bannerBrown: "#82754f",
+        webPurple: "#6b2c91",
       },
     },
   },

@@ -49,23 +49,153 @@
       </nav>
     </header>
     <main>
-      <div
-        class="bg-[url('https://www.manchester.ac.uk/Universally-Manchester-Homepage-Banner-1400x450-2-May10.jpg')] p-48 bg-center relative"
-      >
-        <div class="text-black absolute top-12 left-10">
-          <p class="w-1/4 bg-purple-200 pb-4 text-xl">
-            Our bicentenary festival
-          </p>
-          <p class="w-2/5 bg-purple-200 text-lg">
-            Many more exciting events have been announced for Universally
-            manchester Festival
-          </p>
-          <button class="absolute text-white bg-purple-700 p-2">
-            Find out more
-            <i class="ri-arrow-right-s-line"></i>
-          </button>
+      <section>
+        <div
+          class="bg-[url('https://www.manchester.ac.uk/Universally-Manchester-Homepage-Banner-1400x450-2-May10.jpg')] p-48 bg-center relative"
+        >
+          <div class="text-black absolute top-12 left-10">
+            <p class="w-1/4 bg-purple-200 pb-4 text-xl px-2">
+              Our bicentenary festival
+            </p>
+            <p class="w-2/5 bg-purple-200 text-lg px-2">
+              Many more exciting events have been announced for Universally
+              manchester Festival
+            </p>
+            <button class="absolute text-white bg-purple-800 p-2">
+              Find out more
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
+          </div>
         </div>
-      </div>
+      </section>
+      <section class="p-16">
+        <h2>Study</h2>
+        <div class="flex justify-between gap-10">
+          <div
+            class="bg-webPurple text-white grid grid-cols-2 px-5 py-8 flex-grow"
+          >
+            <p class="text-2xl">Course and programme finder</p>
+            <form name="Course finder" class="row-span-2 text-black">
+              <div class="flex flex-col gap-2 relative top-10">
+                <select
+                  id="studyLevel"
+                  name="studyLevel"
+                  class="w-full rounded"
+                >
+                  <option>Undergraduate (2025 entry)</option>
+                  <option>Undergraduate (2024 entry)</option>
+                  <option>Taught master's</option>
+                  <option>Postgraduate research</option>
+                </select>
+                <div class="">
+                  <input
+                    class="w-full rounded"
+                    name="k"
+                    type="text"
+                    placeholder="Enter keywords"
+                    autocomplete="off"
+                  />
+                </div>
+                <input
+                  type="submit"
+                  name="courseSubmit"
+                  value="Search"
+                  class="bg-gray-700 w-5/5 py-1 text-white"
+                />
+              </div>
+            </form>
+            <p>A-Z lists:</p>
+            <div class="text-yellow-200">
+              <p>
+                <i class="ri-arrow-right-double-line"></i>Undergraduate courses
+                (2025 entry)
+              </p>
+              <p>
+                <i class="ri-arrow-right-double-line"></i>Undergraduate courses
+                (2024 entry)
+              </p>
+              <p>
+                <i class="ri-arrow-right-double-line"></i>Taught master's
+                courses
+              </p>
+              <p>
+                <i class="ri-arrow-right-double-line"></i>Postgraduate research
+                areas
+              </p>
+            </div>
+          </div>
+          <div class="text-black bg-gray-100 w-1/3 p-4 text-xl">
+            <h3 class="text-2xl mb-5">Guided campus tours</h3>
+            <p>
+              Our Student Ambassadors will take you around campus and answer
+              your questions.
+            </p>
+            <p class="text-purple-800">Book now</p>
+          </div>
+        </div>
+      </section>
+      <section class="p-16">
+        <h2 class="text-4xl mb-4 font-thin">Popular links</h2>
+        <div class="flex gap-14">
+          <div>
+            <div class="relative mb-4">
+              <img
+                src="https://www.manchester.ac.uk/Historic-Tours_500x298.jpg"
+                alt=""
+              />
+              <p
+                class="absolute bottom-0 left-0 bg-white pt-4 pr-2 font-medium"
+              >
+                Historic campus tours
+              </p>
+            </div>
+            <div>
+              <p>
+                Take brand-new, self-guided tours of the University during our
+                bicentenary year.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="relative mb-4">
+              <img
+                src="https://www.manchester.ac.uk/Sadler-bursary-campus-promo-v2.jpg"
+                alt=""
+              />
+              <p
+                class="absolute bottom-0 left-0 bg-white pt-4 pr-2 font-medium"
+              >
+                Historic campus tours
+              </p>
+            </div>
+            <div>
+              <p>
+                Take brand-new, self-guided tours of the University during our
+                bicentenary year.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="relative mb-4">
+              <img
+                src="https://www.manchester.ac.uk/Conflict-500x298-4.jpg"
+                alt=""
+              />
+              <p
+                class="absolute bottom-0 left-0 bg-white pt-4 pr-2 font-medium"
+              >
+                Historic campus tours
+              </p>
+            </div>
+            <div>
+              <p>
+                Take brand-new, self-guided tours of the University during our
+                bicentenary year.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
