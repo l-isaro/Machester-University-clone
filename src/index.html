@@ -69,7 +69,7 @@
         </div>
       </section>
       <section class="p-16">
-        <h2>Study</h2>
+        <h2 class="text-4xl font-thin mb-5">Study</h2>
         <div class="flex justify-between gap-10">
           <div
             class="bg-webPurple text-white grid grid-cols-2 px-5 py-8 flex-grow"
@@ -80,7 +80,7 @@
                 <select
                   id="studyLevel"
                   name="studyLevel"
-                  class="w-full rounded"
+                  class="w-full rounded py-1"
                 >
                   <option>Undergraduate (2025 entry)</option>
                   <option>Undergraduate (2024 entry)</option>
@@ -89,7 +89,7 @@
                 </select>
                 <div class="">
                   <input
-                    class="w-full rounded"
+                    class="w-full rounded py-1"
                     name="k"
                     type="text"
                     placeholder="Enter keywords"
@@ -519,23 +519,74 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="grid grid-cols-3 row-auto">
+      <section class="p-16 bg-whiteSmoke">
+        <h2 class="text-4xl font-thin mb-5">Explore Manchester</h2>
+        <div class="grid grid-cols-3 auto-rows-[280px] gap-10">
           <div
-            class="bg-[url('https://www.manchester.ac.uk/jodrell-050819.jpg')]"
-          ></div>
+            class="bg-[url('https://www.manchester.ac.uk/jodrell-050819.jpg')] col-span-2 bg-no-repeat object-contain relative"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-whiteSmoke w-3/4 pt-2 pr-4 font-thin"
+            >
+              <p class="font-normal">Jodrell Bank</p>
+              <p>
+                Our Jodrell Bank Observatory (a UNESCO World Heritage Site) is
+                home to the giant Lovell Telescope.
+              </p>
+            </div>
+          </div>
           <div
-            class="bg-[url('https://www.manchester.ac.uk/John-Rylands-Library-Deansgate-154-100320-edited.jpg')]"
-          ></div>
+            class="bg-[url('https://www.manchester.ac.uk/John-Rylands-Library-Deansgate-154-100320-edited.jpg')] row-span-2 relative"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-whiteSmoke w-3/4 pt-2 pr-4 font-thin"
+            >
+              <p class="font-normal">
+                The John Rylands Research Institute and Library
+              </p>
+              <p>
+                Our Grade I-listed, neo-Gothic library houses the University's
+                Special Collections.
+              </p>
+            </div>
+          </div>
           <div
-            class="bg-[url('https://www.manchester.ac.uk/Manchester-Museum-180320-edited.jpg')]"
-          ></div>
+            class="bg-[url('https://www.manchester.ac.uk/Manchester-Museum-180320-edited.jpg')] row-span-2 relative"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-whiteSmoke w-3/4 pt-2 pr-4 font-thin"
+            >
+              <p class="font-normal">Manchester Museum</p>
+              <p>
+                With dinosaur skeletons and mummies from Ancient Egypt,
+                Manchester Museum's collection of more than 4 million objects
+                spans millennia.
+              </p>
+            </div>
+          </div>
           <div
-            class="bg-[url('https://www.manchester.ac.uk/manchester-christmas-markets3.jpg')]"
-          ></div>
+            class="bg-[url('https://www.manchester.ac.uk/manchester-christmas-markets3.jpg')] relative"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-whiteSmoke w-3/4 pt-2 pr-4 font-thin"
+            >
+              <p class="font-normal">The city of Manchester</p>
+            </div>
+          </div>
           <div
-            class="bg-[url('https://www.manchester.ac.uk/the-Whitworth-180320-edited.jpg')]"
-          ></div>
+            class="bg-[url('https://www.manchester.ac.uk/the-Whitworth-180320-edited.jpg')] col-span-2 relative"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-whiteSmoke w-3/4 pt-2 pr-4 font-thin"
+            >
+              <p class="font-normal">The Whitworth</p>
+              <p>
+                Our art gallery is home to more than 55,000 works of art,
+                ranging from textiles to some of the most famous British
+                watercolours.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
