@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         bannerBrown: "#82754f",
         webPurple: "#6b2c91",
+        whiteSmoke: "#ececed",
       },
     },
   },
